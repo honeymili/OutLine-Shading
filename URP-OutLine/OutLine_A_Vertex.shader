@@ -1,7 +1,7 @@
 //在顶点着色器中计算的描边有bug 是反的 ；片元着色器中同样的计算方式就没问题 //描边颜色不能修改
 // 基于观察角度和表面法线的轮廓线渲染， 这种方法使用视角方向和表面法线的点乘结果来得到轮廓线信息的。
 //UnityCG.cginc 拿出来 ObjSpaceViewDir 封装的函数 计算物体的视方向
-Shader "Honey/Outline/View_vert"
+Shader "Honey/Outline/A_ViewVert"
 {
     Properties
     {
