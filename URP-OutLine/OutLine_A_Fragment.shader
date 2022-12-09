@@ -1,3 +1,4 @@
+////https://zhuanlan.zhihu.com/p/410710318
 // 基于观察角度和表面法线的轮廓线渲染， 这种方法使用视角方向和表面法线的点乘结果来得到轮廓线信息的。
 ////UnityCG.cginc 拿出来 ObjSpaceViewDir 封装的函数 计算物体的视方向
 Shader "Honey/Outline/View_frag"
